@@ -12,6 +12,16 @@
     cursor: pointer;
 }
 
+.tarea-contenedor:nth-child(3n + 1){
+    background: #eb81eb;
+}
+.tarea-contenedor:nth-child(3n + 2){
+    background: #ccfd71;
+}
+.tarea-contenedor:nth-child(3n + 3){
+    background: #e69a29;
+}
+
 .tarea-texto{
     width: 100%;
     height: 100%;
