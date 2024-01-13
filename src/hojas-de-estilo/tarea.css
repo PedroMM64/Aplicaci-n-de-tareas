@@ -13,13 +13,16 @@
 }
 
 .tarea-contenedor:nth-child(3n + 1){
-    background: #eb81eb;
+    background: #d872d8;
 }
 .tarea-contenedor:nth-child(3n + 2){
-    background: #ccfd71;
+    background: #f4fd71;
 }
 .tarea-contenedor:nth-child(3n + 3){
     background: #e69a29;
+}
+.tarea-contenedor:nth-child(3n + 4){
+    background: #915740;
 }
 
 .tarea-texto{
@@ -35,10 +38,10 @@
     width: 30px;
     height: 30px;
     margin: 5px;
-    color: #9c1414;
+    color: #ca0101;
 }
 
 .tarea-contenedor.completada{
-    background-color: #4ceb54;
+    background-color: #1fda28;
     text-decoration: line-through;
 }
